@@ -4,4 +4,10 @@
     box-sizing: border-box;
     user-select: none;
     text-decoration: none;
+    font-family: 'Teko';
+}
+
+@font-face {
+    font-family: 'Teko';
+    src: url('../assets/fonts/Teko/Teko-Regular.ttf');
 }

@@ -1,7 +1,7 @@
-import { Header } from "./components/header/Header"
+import { DashboardRoutes } from "./routes/DashboardRoutes"
 
 export const App = () => {
   return (
-    <Header />
+    <DashboardRoutes />
   )
 }
