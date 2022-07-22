@@ -5,6 +5,15 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
+.charizard{
+    width: 100%;
+    height: 80vh;
+    margin-top: 5rem;
+    background-image: url('../../../assets/images/main/charizard.jpeg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
 .title{
     font-size: 5rem;
     margin-top: 3rem;
@@ -28,6 +37,12 @@ align-items: center;
 .paragraph2{
     font-size: 2.5rem;
     margin-bottom:2rem;
+}
+.link{
+    color: #555;
+}
+.link:hover{
+    color:#205cab;
 }
 .apis{
     padding: 1rem 2rem;

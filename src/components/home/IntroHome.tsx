@@ -4,12 +4,13 @@ export const IntroHome = () => {
     return (
         <IntroHomeStyled>
             <h1 className="title">Decathlon & IT Academy Hackathon - Frontend</h1>
-            <p className="paragraph paragraph2">Esta web forma parte de el reto clasificatorio para la final de la hackathon <a href='https://www.decathlon.es/es/' target='_BLANK'>Decathlon</a> & <a href='https://cibernarium.barcelonactiva.cat/it-academy/inscripcio' target='_BLANK'>IT Academy</a> organizado por <a href='https://nuwe.io' target='_BLANK'>Nuwe</a> que se celebrará en el cibernarium de Barcelona el día 26 de julio de 2022.</p>
+            <p className="paragraph paragraph2">Esta web forma parte de el reto clasificatorio para la final de la hackathon <a className="link" href='https://www.decathlon.es/es/' target='_BLANK'>Decathlon</a> & <a className="link" href='https://cibernarium.barcelonactiva.cat/it-academy/inscripcio' target='_BLANK'>IT Academy</a> organizado por <a className="link" href='https://nuwe.io' target='_BLANK'>Nuwe</a> que se celebrará en el cibernarium de Barcelona el día 26 de julio de 2022.</p>
             <div className="imagesContainer">
                 <img className="images" src="../../../assets/images/main/decathlon.png" alt="decathlon" />
                 <img className="images" src="../../../assets/images/main/IT.png" alt="IT Academy" />
                 <img className="images" src="../../../assets/images/main/nuwe.png" alt="Nuwe" />
             </div>
+            <div className="charizard"></div>
             <h2 className="title">Descripción del reto</h2>
             <h3 className="title2">🌌 Background</h3>
             <p className="paragraph">
@@ -17,8 +18,8 @@ export const IntroHome = () => {
 
                 El cuarto reto a nivel de front-end consiste en implementar una web que consuma una API pública de internet como:</p>
             <p className="apis">
-                API de Pokémons: https://pokeapi.co <br />
-                API de Rick i Morty: https://rickandmortyapi.com
+                API de Pokémons: <a className="link" href="https://pokeapi.co" target='_BLANK'>https://pokeapi.co</a> <br />
+                API de Rick i Morty: <a className="link" href="https://rickandmortyapi.com" target='_BLANK'>https://rickandmortyapi.com</a>
             </p>
 
             <p className="paragraph">Aquí tienes una posible idea de lo que se puede llegar a implementar con la primera API mencionada. La idea es utilizar las imágenes y los datos que nos da el servidor y mapearlos a componentes de una web para que lo consuma el usuario.</p>
@@ -51,7 +52,7 @@ export const IntroHome = () => {
                 <ul className="list">
                     <li className="listElement">Se mirarán los objetivos implementados.</li>
                     <li className="listElement">Se mirará si se ha dividido la lógica por componentes de forma coherente.</li>
-                    <li className="listElement">Se mirará si el proyecto contiene un README con la información básica para trabajar con el proyecto y que siga: <a href="https://www.makeareadme.com" target='_BLANK'>https://www.makeareadme.com</a>.</li>
+                    <li className="listElement">Se mirará si el proyecto contiene un README con la información básica para trabajar con el proyecto y que siga: <a className="link" href="https://www.makeareadme.com" target='_BLANK'>https://www.makeareadme.com</a>.</li>
                 </ul>
             </div>
         </IntroHomeStyled>
