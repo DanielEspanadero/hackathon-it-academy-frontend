@@ -14,6 +14,9 @@ justify-content: center;
     -webkit-background-clip: text;
     color: transparent;
 }
+.videogames{
+    width: 100%;
+}
 .paragraph{
     width:80%;
     text-align: justify;

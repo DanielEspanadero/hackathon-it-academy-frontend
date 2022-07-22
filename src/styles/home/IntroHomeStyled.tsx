@@ -44,6 +44,12 @@ align-items: center;
 .link:hover{
     color:#205cab;
 }
+.link2{
+    color: #e6dddd;
+}
+.link2:hover{
+    color:#fec30a;
+}
 .apis{
     padding: 1rem 2rem;
     text-align: center;

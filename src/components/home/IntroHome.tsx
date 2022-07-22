@@ -18,8 +18,8 @@ export const IntroHome = () => {
 
                 El cuarto reto a nivel de front-end consiste en implementar una web que consuma una API pública de internet como:</p>
             <p className="apis">
-                API de Pokémons: <a className="link" href="https://pokeapi.co" target='_BLANK'>https://pokeapi.co</a> <br />
-                API de Rick i Morty: <a className="link" href="https://rickandmortyapi.com" target='_BLANK'>https://rickandmortyapi.com</a>
+                API de Pokémons: <a className="link2" href="https://pokeapi.co" target='_BLANK'>https://pokeapi.co</a> <br />
+                API de Rick i Morty: <a className="link2" href="https://rickandmortyapi.com" target='_BLANK'>https://rickandmortyapi.com</a>
             </p>
 
             <p className="paragraph">Aquí tienes una posible idea de lo que se puede llegar a implementar con la primera API mencionada. La idea es utilizar las imágenes y los datos que nos da el servidor y mapearlos a componentes de una web para que lo consuma el usuario.</p>
