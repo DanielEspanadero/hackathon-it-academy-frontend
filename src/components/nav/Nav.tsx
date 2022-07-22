@@ -54,7 +54,7 @@ export const Nav = () => {
           className="links"
         >
           <img className="imagesNav" src="../../../assets/images/nav/meowth.png" alt="meowth" />
-          <p className="linkText">VideoJuegos</p>
+          <p className="linkText">Videojuegos</p>
         </NavLink>
         <NavLink
           to='/noticias'

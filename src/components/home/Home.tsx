@@ -1,6 +1,10 @@
+import { HomeStyled } from "../../styles/home/HomeStyled"
+import { IntroHome } from "./IntroHome"
 
 export const Home = () => {
   return (
-    <div>Home</div>
+    <HomeStyled>
+      <IntroHome />
+    </HomeStyled>
   )
 }

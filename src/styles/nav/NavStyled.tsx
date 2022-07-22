@@ -1,12 +1,15 @@
 import styled from "styled-components";
 
 export const NavStyled = styled.div`
+position:sticky;
+top: 0;
 display: flex;
 align-items: center;
 justify-content: center;
+background-color: #fff;
 width: 100%;
-height: 20vh;
-border-bottom: 2px inset #0006;
+height: 22vh;
+border-bottom: 2px inset #181818;
 .navBrand{
     display: flex;
     align-items: center;
@@ -42,7 +45,6 @@ border-bottom: 2px inset #0006;
         }
     }
     .links:hover{
-        padding-bottom: 0;
         .imagesNav{
             filter:drop-shadow(5px 5px 5px #205cab);
         }
