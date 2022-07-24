@@ -3,6 +3,7 @@ import { Link } from "react-router-dom"
 import { IAllPokemons } from "../../interfaces/IAllPokemons"
 import { PokemonScreenStyled } from "../../styles/pokedex/PokemonScreenStyled"
 import { Pokemon } from "./Pokemon"
+import { PokemonSearch } from "./PokemonSearch"
 
 export const PokemonScreen = () => {
 
@@ -33,6 +34,7 @@ export const PokemonScreen = () => {
   return (
     <PokemonScreenStyled>
       <h1 className="title">Pokedex</h1>
+      {/* <PokemonSearch /> */}
         <div className="pokemonContainer">
           <div className="allContainer" onClick={() => console.log('Hola')}>
             {allPokemons.map((pokemonStats: any, index: any) =>
